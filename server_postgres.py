@@ -11,7 +11,7 @@ import requests
 import os
 
 
-api = twitter.Api(consumer_key = 'J4QehTb6WzpQSUMStM778oI5r', consumer_secret = 'C3MRCzY45H3pDy5rklPlE8aqon1ubxhVfT0gU7BEgCeJhYXgHY', access_token_key = '928600292408438785-MzCzpbk9FzynYLc5PYP3LPEs3tqxJT2', access_token_secret = 'jFndq7Bz3O5uGTLz5GHJqjq8JmUTOul7KyNurKYwwKpgS')
+api = twitter.Api(consumer_key = '****', consumer_secret = '****', access_token_key = '****', access_token_secret = '****')
 
 nlp = spacy.load('en_core_web_sm', disable=['parser', 'ner'])
 
