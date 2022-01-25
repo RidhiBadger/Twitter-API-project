@@ -5,3 +5,4 @@ Step1 - Set up a Developer Account with Twitter, the crdentials will be required
 Step2 - Run server.py using the command - < python server.py > on the virtual machine. The code with use Argparse python library to read the tweets from twitter, clean them and select the tweets in english language, input timestamp, userid and tweet in the text file tweets.txt
 Step3 - Run the command - < python word_count.py --word WORD > to count the number of times the given WORD occurs in the sampled tweets. 
 Step4 - Run the command - < python vocabulary_size.py > to calculate the number of unique words in the sampled tweets file.  
+Step5 - Run command < python wordintweet.py > to print tweets with the given word <#life> since the given date. We can limit the number of responses to n (=10 in this case)
