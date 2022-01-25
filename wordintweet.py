@@ -13,7 +13,7 @@ import os
 import tweepy as tw
 import pandas as pd
 
-##api = twitter.Api(consumer_key = 'N3tyUxK9u2QKCkA1p1Gw5eDJd', consumer_secret = 'MCk9sLTGhtE4Za1fRO6ruHCy0h4TdicseVsv3eyFF5gy7qRNs1', access_token_key = '165846689-sj7w4uhLzK7UMTK11xhmxWBRPbfGCzxm05vQ9q3S', access_token_secret = 'SVageJRbtIqpKmXctbLHhrBYxJm8TDe7q9EPL4EZBkhWj')
+##api = twitter.Api(consumer_key = '****', consumer_secret = '****', access_token_key = '****', access_token_secret = '****')
 
 
 consumer_key = 'N3tyUxK9u2QKCkA1p1Gw5eDJd'
