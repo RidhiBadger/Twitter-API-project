@@ -17,4 +17,11 @@ Repeat the above steps by using a datawarehouse (a PostgresSQL datawarehouse) in
 
 Step 1 - Select schema for the table to store tweets. Here since the goal is to store trendiness score in the given minute, the table will have 3 columns - word, timestamp (upto minute) and the number of occurences. Allocating a column for number of occurences will lead to optimal utilization of memory. 
 
-Step 2 - Run server_postgres.py on the virtual machine. This will read the tweets from Twitter API and store them word by word, as per the format in the previous step. 
+Step 2 - Run server_postgres.py on the virtual machine. This will read the tweets from Twitter API and store them word by word, as per the format in the previous step. Here we use psycopg2 python library to read/write from/to Postgres SQL
+
+Step 3 - Run word_count_postgres.py --word <life> to calculate the frequency of the word in the tweets in the given minute.
+  
+Step 4 - vocabulary_size_postgres.py will calculate the number of unique words used in the tweets in the given minute. 
+  
+Step 5 - Calculate the trendiness score using trendiness_postgres.py
+
