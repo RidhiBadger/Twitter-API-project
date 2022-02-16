@@ -2,7 +2,7 @@
 **PROJECT PART A**
 Objective - Downloading the tweets from Twitter API, storing them in a text file, calculating frequency of the given word (basis User input) and then calculating the trendiness score
 
-Step1 - Set up a Developer Account with Twitter, the crdentials will be required to extract tweets from the API.
+Step1 - Set up a Developer Account with Twitter, the credentials will be required to extract tweets from the API.
 
 Step2 - Run server.py using the command - < python server.py > on the virtual machine. The code will use Argparse python library to read the tweets from twitter. Further we clean the tweets and select only the tweets that are in english language. For all tweets read, we store the input timestamp, userid and tweet in the text file tweets.txt
 
